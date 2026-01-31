@@ -1,4 +1,4 @@
-package com.example.springAI.controller;
+package com.example.springAI.controller.basiccontroller;
 
 import com.example.springAI.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +12,8 @@ public class AIChatController {
     @Autowired
     private MovieService movieService;
 
-
-    @GetMapping("/movieinfo")
+        // If i pass ?movieName=any movie
+    @GetMapping("/movieInfo")
     public String movieInfo(@RequestParam(value = "movieName", defaultValue = "The Matrix") String name) {
         return movieService.movieInfo(name);
     }

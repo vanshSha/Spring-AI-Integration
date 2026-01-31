@@ -10,7 +10,7 @@ public class MovieService {
     private final ChatClient chatClient;
 
     @Value("classpath:prompts/movie-template.st")
-    private Resource movieResource;
+    private Resource movieResource; // This part also why am i using resource
 
     public MovieService(ChatClient chatClient) {
         this.chatClient = chatClient;

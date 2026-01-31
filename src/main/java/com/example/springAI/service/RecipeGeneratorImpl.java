@@ -16,6 +16,7 @@ public class RecipeGeneratorImpl implements RecipeGenerator {
         this.chatClient = chatClient;
     }
 
+    // This part also I will study later
     private final String recipeTemplate = """
             Answer for {foodname} for {question}?""";
 
@@ -25,6 +26,7 @@ public class RecipeGeneratorImpl implements RecipeGenerator {
         return new Answer(getMessage(question).getResult().getOutput().getText());
     }
 
+    // This part i will study
     private ChatResponse getMessage(Question question) {
         return chatClient.prompt()
                 .user(userSpec -> userSpec.text(recipeTemplate)

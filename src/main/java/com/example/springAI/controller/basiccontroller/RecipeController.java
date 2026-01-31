@@ -1,4 +1,4 @@
-package com.example.springAI.controller;
+package com.example.springAI.controller.basiccontroller;
 
 import com.example.springAI.model.Answer;
 import com.example.springAI.model.Question;
@@ -16,7 +16,8 @@ public class RecipeController {
 
 
     @GetMapping("/generate-recipe")
-    public Answer generateRecipe(@RequestParam(value = "question", defaultValue = "What are the ingredients  ")String question, @RequestParam(value = "foodName", defaultValue = "pizza") String foodName) {
+    public Answer generateRecipe(@RequestParam(value = "question", defaultValue = "What are the ingredients")String question,
+                                 @RequestParam(value = "foodName", defaultValue = "pizza")String foodName){
         return generator.generateRecipe(new Question(question, foodName));
     }
 }
