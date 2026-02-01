@@ -10,7 +10,10 @@ public class MovieService {
     private final ChatClient chatClient;
 
     @Value("classpath:prompts/movie-template.st")
-    private Resource movieResource; // This part also why am i using resource
+    private Resource movieResource;
+    /* Resource is an interface it is use reading file
+       @Value annotation It can inject any file location as a String
+     */
 
     public MovieService(ChatClient chatClient) {
         this.chatClient = chatClient;

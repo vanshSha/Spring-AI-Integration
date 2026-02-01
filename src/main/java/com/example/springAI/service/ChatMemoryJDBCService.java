@@ -25,13 +25,12 @@ public class ChatMemoryJDBCService {
     }
 
     public List<Message> listAllChats() {
-
         List<String> pastids = jdbcChatMemoryRepository.findConversationIds();
-
         List<Message> byConversationId = jdbcChatMemoryRepository.findByConversationId(pastids.get(0));
-
         return byConversationId;
 
     }
+    // findConversationIds() --> It fetches all conversation IDs stored in the chat memory table.
+    // A conversation ID is a unique identifier that groups all chat messages belonging to one logical conversation
 
 }
