@@ -1,0 +1,10 @@
+charset: UTF-8
+chunk_index: 0
+parent_document_id: 9e2caded-623c-48e3-96b4-890fd70dddac
+source: hello.txt
+section_summary: Summary:
+- Key topic: a brief self-statement claiming elite professional standing — "I am top 0.1% SDE."
+- Entities and metadata: "SDE" (Software Development Engineer), the percentile "0.1%", source file "hello.txt", charset "UTF-8", chunk_index 0, total_chunks 1, and parent_document_id 9e2caded-623c-48e3-96b4-890fd70dddac.
+total_chunks: 1
+
+I am top 0.1% SDE

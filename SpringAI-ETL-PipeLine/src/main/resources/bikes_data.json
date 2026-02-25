@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "brand": "Trek",
+    "description": "A high-performance mountain bike for trail riding."
+  },
+  {
+    "id": 2,
+    "brand": "Cannondale",
+    "description": "An aerodynamic road bike for racing enthusiasts."
+  },
+  {
+    "id": 3,
+    "brand": "Giant",
+    "description": "A versatile hybrid bike suitable for both city commuting and weekend adventures."
+  },
+  {
+    "id": 4,
+    "brand": "Specialized",
+    "description": "A lightweight cross-country bike built for speed and agility."
+  },
+  {
+    "id": 5,
+    "brand": "Scott",
+    "description": "A durable downhill bike designed for extreme terrain."
+  }
+]
