@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OllamaController {
     ChatClient chatClient;
 
-    public OllamaController(ChatClient.Builder chatClientbuilder) {
+    public OllamaController(ChatClient.Builder chatClientbuilder)  {
         this.chatClient = chatClientbuilder.build();
     }
 
