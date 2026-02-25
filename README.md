@@ -16,4 +16,9 @@ Spring Boot Project Sub Module
 
     8 - SpringAI-ETL-PipeLine : This submodule demonstrates the ETL (Extract, Transform, Load) workflow by extracting data
 
-    
+    9 - OpenAi : This submodule demonstrates pattern of Spring AI  like - Chain Pattern WorkFlow
+                                                                    - Parrallel WorkFlow
+                                                                    - Routing WorkFlow
+                                                                    - Orchestrator WorkFlow 
+                                                                    - Evalutor-Optimizer Patter 
+
