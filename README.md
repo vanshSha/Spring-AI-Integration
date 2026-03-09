@@ -28,5 +28,8 @@ Spring Boot Project Sub Module
 
     12 - mcp-client : This module demonstrates how a client application can connect to and interact with any MCP server using the MCP protocol.
 
+    13 - prometheus-mcp-server :  This module implements a prometheus-mcp-server 
+
+
                                         
 
