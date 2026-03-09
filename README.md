@@ -22,3 +22,11 @@ Spring Boot Project Sub Module
                                                                     - Orchestrator WorkFlow 
                                                                     - Evalutor-Optimizer Patter 
 
+    10 - Spring-AI-Hallucination : This submodule demonstreates How to handle AI-Hallucination 
+
+    11 - mcp-server : This module implements a custom Book MCP server that exposes tools and resources related to book data.
+
+    12 - mcp-client : This module demonstrates how a client application can connect to and interact with any MCP server using the MCP protocol.
+
+                                        
+
