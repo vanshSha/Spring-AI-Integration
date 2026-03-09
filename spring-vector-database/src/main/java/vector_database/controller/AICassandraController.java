@@ -20,6 +20,6 @@ public class AICassandraController {
 
     @GetMapping("/search")
     public List<Document> searchDocument() {
-      return   aiCassandraVectorService.searchDocument("Technology");
+      return  aiCassandraVectorService.searchDocument("Technology");
     }
 }

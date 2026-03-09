@@ -20,7 +20,6 @@ public class AICassandraVectorService {
     VectorStore vectorStore;
 
     public void getDocuments() {
-
         List<Document> documents = List.of(
                 new Document("Spring AI rocks!! Spring AI rocks!! Spring AI rocks!! Spring AI rocks!! Spring AI rocks!!", Map.of("country", "UK", "year", 2020)),
                 new Document("The World is Big and Salvation Lurks Around the Corner", Map.of("country", "BG", "year", 2018)),
@@ -44,7 +43,6 @@ public class AICassandraVectorService {
             vectorStore.add(splittedDoc);
             log.info("Added document: {}", doc);
         });
-
     }
 
     public List<Document> searchDocument(String query) {

@@ -1,7 +1,7 @@
 services:
   postgres:
     image: pgvector/pgvector:pg16
-    container_name: postgres
+    container_name: pgvector
     restart: unless-stopped
     ports:
       - "5432:5432"
